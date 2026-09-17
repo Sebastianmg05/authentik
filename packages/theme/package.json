@@ -84,7 +84,7 @@
         "styleframe": "^3.7.0"
     },
     "devDependencies": {
-        "@eslint/css": "^1.3.0",
+        "@eslint/css": "^2.0.0",
         "@eslint/js": "catalog:",
         "@goauthentik/eslint-config": "link:../eslint-config",
         "@goauthentik/prettier-config": "link:../prettier-config",
