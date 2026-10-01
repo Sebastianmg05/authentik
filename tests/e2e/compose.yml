@@ -1,7 +1,7 @@
 services:
   chromium:
     # Needed for API changes. Bump to a real tag when platform > 0.60.1
-    image: ghcr.io/goauthentik/selenium:150.0-ak-0.60.1@sha256:e2c1b84379b5a0ec21141ea565f823a437c761db6338a03a127c931ee62b241a
+    image: ghcr.io/goauthentik/selenium:152.0-ak-0.63.1@sha256:9c79a1513850730de9573a2028e63ded21647dc9dab301c9bb1c9d3e647ee003
     shm_size: 2g
     network_mode: host
     restart: always
