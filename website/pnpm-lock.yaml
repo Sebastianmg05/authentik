@@ -233,8 +233,8 @@ importers:
         specifier: ^4.1.5
         version: 4.1.5
       openapi-to-postmanv2:
-        specifier: ^6.3.3
-        version: 6.3.3
+        specifier: ^6.4.0
+        version: 6.4.0
       postman-code-generators:
         specifier: ^2.1.1
         version: 2.1.1
@@ -4137,6 +4137,7 @@ packages:
   eslint@9.39.5:
     resolution: {integrity: sha512-DgZS62aPLXKlnxILS/AYCoRvHaZeXceIzlXPkkGGzJWSow1aEk0lbTlxUSlyjC8jcaKxAdOnTDz+o1JFSBsyjw==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
+    deprecated: This version is no longer supported. Please see https://eslint.org/version-support for other options.
     hasBin: true
     peerDependencies:
       jiti: '*'
@@ -4247,6 +4248,9 @@ packages:
 
   fast-uri@3.1.5:
     resolution: {integrity: sha512-gHwA1O9LDIcKunMKhObS/HimwtehO1nPUECKAu5TpKgaO19fcWEl4bliWe1jWxVFvIXztJjjQ4L8XQ1EU9f7Jw==}
+
+  fast-uri@3.1.8:
+    resolution: {integrity: sha512-GZMtZUTNRpOVIECoXwLNZS5xUGE+mVNbTB8h/7Rwh2TFWcBQiPzTgyZi05BF9UMZKkLJv8XBRJTlU7zg8+ZfMg==}
 
   fastq@1.20.1:
     resolution: {integrity: sha512-GGToxJ/w1x32s/D2EKND7kTil4n8OVk/9mycTc4VDza13lOvpUZTGX3mFSCtV9ksdGBVzvsyAVLM6mHFThxXxw==}
@@ -5758,8 +5762,8 @@ packages:
     resolution: {integrity: sha512-7x81NCL719oNbsq/3mh+hVrAWmFuEYUqrq/Iw3kUzH8ReypT9QQ0BLoJS7/G9k6N81XjW4qHWtjWwe/9eLy1EQ==}
     engines: {node: '>=12'}
 
-  openapi-to-postmanv2@6.3.3:
-    resolution: {integrity: sha512-o0u6qqMMRLt7eAyFBpL/lCresQ1VqQFGe6/iPMBvNkWDXrpgGo5jo+YnP1e0MwF3tdUKLfkHssufGWMdojpPLg==}
+  openapi-to-postmanv2@6.4.0:
+    resolution: {integrity: sha512-28wYHG6prl0ldDyZcRCkp46w0gUkJH8/06l2lgFy3bdn+b/6NQCZ9supegkUkcYRvu1YWREEt6OLDLPy3DeFZg==}
     engines: {node: '>=18'}
     hasBin: true
 
@@ -11245,7 +11249,7 @@ snapshots:
   '@redocly/ajv@8.18.1':
     dependencies:
       fast-deep-equal: 3.1.3
-      fast-uri: 3.1.5
+      fast-uri: 3.1.8
       json-schema-traverse: 1.0.0
       require-from-string: 2.0.2
 
@@ -12136,7 +12140,7 @@ snapshots:
   ajv@8.20.0:
     dependencies:
       fast-deep-equal: 3.1.3
-      fast-uri: 3.1.5
+      fast-uri: 3.1.8
       json-schema-traverse: 1.0.0
       require-from-string: 2.0.2
 
@@ -13149,7 +13153,7 @@ snapshots:
       json5: 2.2.3
       lodash: 4.18.1
       mustache: 4.2.0
-      openapi-to-postmanv2: 6.3.3
+      openapi-to-postmanv2: 6.4.0
       postman-collection: 5.3.1
       react: 19.2.7
       slugify: 1.6.9
@@ -13632,6 +13636,8 @@ snapshots:
   fast-safe-stringify@2.1.1: {}
 
   fast-uri@3.1.5: {}
+
+  fast-uri@3.1.8: {}
 
   fastq@1.20.1:
     dependencies:
@@ -15461,7 +15467,7 @@ snapshots:
       is-docker: 2.2.1
       is-wsl: 2.2.0
 
-  openapi-to-postmanv2@6.3.3:
+  openapi-to-postmanv2@6.4.0:
     dependencies:
       ajv: 8.20.0
       ajv-draft-04: 1.0.0(ajv@8.20.0)
