@@ -23,10 +23,10 @@
         "@goauthentik/docusaurus-theme": "workspace:*",
         "@mdx-js/react": "^3.1.1",
         "@types/react": "^19.2.16",
-        "@types/react-dom": "^19.2.3",
+        "@types/react-dom": "^19.3.0",
         "prism-react-renderer": "^2.4.1",
         "react": "^19.2.7",
-        "react-dom": "^19.2.7",
+        "react-dom": "^19.3.1",
         "typescript": "catalog:"
     },
     "engines": {
